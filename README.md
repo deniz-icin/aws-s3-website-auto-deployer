@@ -11,7 +11,8 @@ This project uses Makefile in order to providing options for create and destroy 
 ### Make for Manjaro
 `sudo pacman -S base-devel`
 ## How to use?
-!!! warning index.html document must be in root directory.
+> **Warning**
+> index.html document must be in root directory.
 ### First, set environment variables
 ``` bash
 export AWS_REGION="eu-central-1"
