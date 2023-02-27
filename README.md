@@ -5,7 +5,8 @@ This project uses Makefile in order to providing options for create and destroy 
 
 ## Dependencies
 1. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-2. Make
+2. [Git](https://github.com/git-guides/install-git)
+3. Make
 ### Make for Ubuntu
 `sudo apt install make`
 ### Make for Manjaro
