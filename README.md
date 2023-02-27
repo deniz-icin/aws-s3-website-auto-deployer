@@ -12,6 +12,7 @@ This project uses Makefile in order to providing options for create and destroy 
 `sudo pacman -S base-devel`
 ## How to use?
 > **Warning**
+
 > index.html document must be in root directory.
 ### First, set environment variables
 ``` bash
