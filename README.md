@@ -7,15 +7,15 @@ This project uses Makefile in order to providing options for create and destroy 
 1. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 2. [Git](https://github.com/git-guides/install-git)
 3. Make
-### Make for Ubuntu
+#### Make for Ubuntu
 `sudo apt install make`
-### Make for Manjaro
+#### Make for Manjaro
 `sudo pacman -S base-devel`
 ## How to use?
 > **Warning**
 
 > index.html document must be in root directory.
-### First, set environment variables
+#### First, set environment variables
 ``` bash
 export AWS_REGION="eu-central-1"
 export GIT_REPO="https://github.com/cloudacademy/static-website-example.git"
@@ -24,11 +24,11 @@ export FOLDER_NAME="static-website-example/"
 export INDEX_DOC_PATH="index.html"
 export ERROR_DOC_PATH="error/index.html"
 ```
-### Create
+#### Create
 ``` bash
 make create
 ```
-### Destroy
+#### Destroy
 ``` bash
 make destroy
 ```
